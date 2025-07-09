@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<HTML lang="EN"
+
+<head>
+
+    <meta charset="UTF-8"/>
+
+    <meta name="VIEWPORT"
+content="WIDTH=DEVICE-WIDTH, INISIAL-SCALE=1.0"/>
+
+<title>WAHAN's SHOP - E-COMMERCE</title>
+
+<link rel="STYLESHEET" href="STYLE.CSS" />
+
+</head>
+
+<body>
+
+    <!-- HEADER -->
+
+    <header>
+
+        <div class="LOGO">WAHAN's SHOP</div>
+
+        <nav>
+
+            <UL>
+
+                <li><a href="#HOME">HOME</A></li>
+
+                <li><a href="#SHOP">SHOP</a></li>
+
+                <li><a href="#LOGIN">LOGIN</a></li>
+
+                <li><a href="#CART">CART</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HOME -->
+
+    <section id="HOME" class="HERO"
+
+    <h1>WELCOME TO WAHAN's SHOP</h1>
+
+    <P>BEST PRODUCTS AT THE BEST PRICES.</P>
+
+    <a href="#SHOP"><button>SHOP NOW</button></a>
+
+</section>
+
+
+<!-- SHOP -->
+
+<SECTION id="SHOP" class="PRODUCTS">
+
+    <h2>ALL PRODUCTS</h2>
+
+    <DIV class="PRODUCT-LIST">
+
+        <DIV class="PRODUCT">
+
+            <img src="https://via.placeholder.com/150"alt="Product 1" />
+
+            <h3>WIRELESS HEADPHONE</h3>
+
+            <P>1700 TAKA</P>
+
+            <button onclick="ADDTOCART('WIRELESS HEADPHONE')">ADD TO CART</button>
+
+        </DIV>
+
+        <DIV class="PRODUCT">
+
+            <img src="https://via.placeholder.com/150"alt="PRODUCT 2" />
+
+            <H3>WIRELESS MICROPHONE</H3>
+
+            <P>1100 TAKA</P>
+
+            <button onclick="ADDTOCART('WIRELESS MICROPHONE')">ADD TO CART</button>
+        </DIV>
+    </DIV>
+</SECTION>
+
+
+<!-- PRODUCT DETAIL -->
+
+<section id="DETAIL" class="PRODUCT DETAIL">
+
+    <H2>PRODUCT DETAIL (EXAMPLE)</H2>
+
+    <img src="https://via.placeholder.com/300"
+
+    alt="PRODUCT DETAIL" />
+
+    <h3>KEYBOARD</h3>
+
+    <P>THIS IS A HIGH QUALITY KEYBOARD WITH ALMOST ZERO LATENCY</P>
+
+    <p>PRICE: 750 TAKA</p>
+
+    <button>ADD TO CART</button>
+
+</section>
+
+
+<!-- LOGIN -->
+
+<section id="LOGIN" class="LOGIN">
+
+    <H2>LOGIN</H2>
+
+    <form onsubmit="LOGINUSER(EVENT)">
+
+        <input type="password"
+
+        placeholder="password" required />
+
+        <BUTTON type="submit">LOGIN</BUTTON>
+    </form>
+
+    <p>DON'T HAVE AN ACCOUNT? <a href="#REGISTER">REGISTER HERE</a></p>
+
+</section>
+
+
+<!-- REGISTER -->
+
+<section id="REGISTER" class="REGISTER">
+
+    <H2>REGISTER</H2>
+
+    <form onsubmit="REGISTERUSER(EVENT)">
+
+        <input type="text" placeholder="FULL NAME" REQUIRED />
+
+        <input type="email" placeholder="EMAIL" REQUIRED />
+
+        <input type="password"
+
+        placeholder="PASSWORD" required />
+
+        <button type="SUBMIT">REGISTER</button>
+
+    </form>
+
+</section>
+
+
+<!-- CART -->
+
+<section id="CART" class="CART">
+
+    <H2>YOUR CART</H2>
+
+    <ul id="CART-ITEMS"></uL>
+
+        <button onclick="CHECKOUT()">CHECKOUT</button>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer>
+
+    <p>&COPY; 2025 WAHAN's SHOP. ALL RIGHTS RESERVED.</p>
+
+</footer>
+
+<SCRIPT src="SCRIPT.JS"></SCRIPT>
+
+</body>
+
+</html>
+
+
+

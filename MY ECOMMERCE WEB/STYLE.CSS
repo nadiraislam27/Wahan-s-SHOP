@@ -1,0 +1,157 @@
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: sans-serif;
+
+    line-height: 1.6;
+
+}
+
+header {
+
+    background: #333;
+
+    color: white;
+
+    padding: 15px 20px;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.LOGO {
+
+    font-size: 1.5em;
+
+}
+
+NAV ul {
+
+    list-style: none;
+
+    display: flex;
+
+}
+
+NAV UL li {
+
+    margin-left: 20px;
+
+}
+
+NAV UL LI a {
+
+    color: white;
+
+    text-decoration: none;
+
+}
+
+.HERO {
+
+    background: LINEAR-GRADIENT(TO RIGHT, #2193b0, #6dd5ed);
+
+    color: white;
+
+    padding: 60px 20px;
+
+    text-align: center;
+
+}
+
+.PRODUCTS, .PRODUCT-DETAIL, .LOGIN, .REGISTER, .CART, .CHECKOUT {
+
+    padding: 40px 20px;
+
+}
+
+.PRODUCT-LIST {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 20PX;
+
+}
+
+.PRODUCT {
+
+    background: #f4f4f4;
+
+    padding: 20px;
+
+    width: 200px;
+
+    border-radius: 8px;
+
+    text-align: center;
+
+}
+
+.PRODUCT img {
+
+    width: 100%;
+
+}
+
+form {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10PX;
+
+    max-width: 300px;
+
+    margin-top: 20px;
+
+}
+
+INPUT, button {
+
+    padding: 10px;
+
+    border: 1PX solid #ccc;
+
+    border-radius: 5px;
+
+}
+
+button {
+
+    background: #333;
+
+    color: white;
+
+    cursor: pointer;
+
+}
+
+footer {
+
+    text-align: center;
+
+    padding: 20px;
+
+    background: #333;
+
+    color: white;
+
+    margin-top: 40px;
+    
+}
